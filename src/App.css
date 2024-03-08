@@ -1,0 +1,76 @@
+.list-content {
+    display: flex;
+    flex-direction: column;
+    margin: 1.2rem;
+    background-color: hsl(25, 86%, 77%);
+    border-radius: 1.2rem;
+    box-shadow: 12px 10px 10px rgba(255, 131, 55, 0.4);
+    height: auto;
+    width: auto;
+}
+
+.list-item {
+    margin: 1.2rem;
+    background-color: hsl(25, 100%, 70%);
+    border-radius: 1.2rem;
+    cursor: pointer;
+}
+
+.list-tittle {
+    margin: 1px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    margin: 1.2rem;
+}
+
+.comments-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(128, 128, 128, 0.5);
+    z-index: 1;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(25, 86%, 77%);
+    border-radius: 1.2rem;
+    box-shadow: 10px 8px 10px rgba(255, 131, 55, 0.4);
+    z-index: 2;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    margin: 0 auto;
+}
+
+.post-content {
+    margin: 1.8rem;
+    height: auto;
+    width: auto;
+    background-color: hsl(34, 86%, 64%);
+    border-radius: 1.2rem;
+}
+
+.modal-close {
+    position: absolute;
+    top: 0;
+    left: 86vh;
+}
+
+.comment {
+    margin: 0.6rem;
+    border-radius: 1.2rem;
+    background-color: hsl(25, 100%, 70%);
+}
+
+.tittle-post {
+    font-size: 1.8rem;
+}
